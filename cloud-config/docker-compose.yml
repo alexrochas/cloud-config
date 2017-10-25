@@ -1,0 +1,5 @@
+server:
+  build: .
+  command: ./gradlew bootRun
+  ports:
+    - "8888:8888"

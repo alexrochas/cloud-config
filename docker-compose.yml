@@ -1,0 +1,9 @@
+client:
+  extends:
+    file: ./cloud-client/docker-compose.yml
+    service: client
+
+server:
+  extends:
+    file: ./cloud-config/docker-compose.yml
+    service: server
