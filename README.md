@@ -3,6 +3,7 @@
 
 ## Roadmap
 
+- ~~Config client fetch config retry~~
 - Connect server to local repo (that must be a git repository)
 - Add authentication
 
